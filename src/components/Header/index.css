@@ -1,0 +1,72 @@
+* {
+  font-family: 'Roboto';
+}
+.link {
+  border: none;
+  text-decoration: none;
+}
+.nav-bg-container {
+  background-color: #272727;
+  height: 12vh;
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-web-logo {
+  width: 70px;
+}
+.md-lg-view {
+  display: none;
+}
+.home-icon {
+  color: #f8fafc;
+  font-size: 22px;
+  width: 40px;
+}
+li {
+  list-style-type: none;
+  margin-left: 0px;
+}
+@media (min-width: 768px) {
+  .nav-bg-container {
+    height: 13vh;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px;
+  }
+  .mobile-view {
+    display: none;
+  }
+  .header-web-logo {
+    width: 110px;
+  }
+  .md-lg-view {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-jobs-cont {
+    display: flex;
+  }
+  .home-jobs-para {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+  }
+  .logout-button1 {
+    background-color: #4f46e5;
+    border: 0px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    align-self: center;
+    width: 90px;
+    height: 30px;
+  }
+  .link {
+    border: none;
+  }
+}

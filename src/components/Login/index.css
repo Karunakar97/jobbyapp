@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto';
+}
+
+.main-bg-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jobby-form-container {
+  background-color: #272727;
+  height: 40vh;
+  width: 85%;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+}
+.jobby-weSite-logo {
+  width: 90px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.form-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.user-Input-Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.username-label {
+  color: #ffffff;
+  font-size: 13px;
+}
+.input-el {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px #7e858e solid;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.submit-button {
+  background-color: #4f46e5;
+  border: 0px;
+  border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+.failure-msg {
+  color: #ff0b37;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .jobby-form-container {
+    width: 40%;
+    height: 60vh;
+  }
+  .form-container {
+    padding: 20px;
+  }
+  .jobby-weSite-logo {
+    width: 110px;
+  }
+}

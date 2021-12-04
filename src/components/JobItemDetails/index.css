@@ -1,0 +1,178 @@
+.IID-bg {
+  background-color: #000000;
+  background-size: cover;
+  padding: 15px;
+}
+* {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.jobItemDetails-background {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 15px;
+}
+.company-logo {
+  width: 60px;
+  height: 60px;
+}
+.logo-title-container {
+  display: flex;
+  align-items: flex-start;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 5px;
+}
+.rating-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.location-package-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intership-cont {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.jobItemDetails-positions-title {
+  font-size: 18px;
+  margin: 0px;
+}
+.intern-location-font {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.jobItemDetails-des-font {
+  font-size: 15px;
+}
+.rating-para {
+  margin: 0px;
+  margin-left: 5px;
+}
+.job-Item_details-destcription-head {
+  font-size: 17px;
+  margin: 0px;
+}
+.description-link-container {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.anchor-El {
+  text-decoration: none;
+  color: #b6c5ff;
+}
+.skills-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-list {
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 200px;
+}
+.skill-logo {
+  width: 40px;
+}
+.skills-para {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.life-at-comapany-logo {
+  width: 100%;
+}
+.similarDetails-background {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 15px;
+  margin-left: -40px;
+}
+.similar-skills-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.failedView-Bg {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.failedView-img {
+  width: 400px;
+}
+@media (min-width: 768px) {
+  .IID-bg {
+    padding: 30px;
+  }
+  .jobItemDetails-background {
+    padding: 30px;
+  }
+  .company-logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .jobItemDetails-positions-title {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .intern-location-font {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  .jobItemDetails-des-font {
+    font-size: 17px;
+  }
+  .rating-para {
+    margin: 0px;
+    margin-left: 5px;
+  }
+  .job-Item_details-destcription-head {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .skills-list {
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 250px;
+  }
+  .skill-logo {
+    width: 50px;
+  }
+  .skills-para {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .life-at-comapany-logo {
+    width: 100vw;
+  }
+  .life-at-comapany-cont {
+    display: flex;
+  }
+  .similarDetails-background {
+    width: 40%;
+    padding: 20px;
+    margin-right: 60px;
+  }
+  .similar-skills-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
